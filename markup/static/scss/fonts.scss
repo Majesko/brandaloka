@@ -16,3 +16,12 @@
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+
+
+@font-face {
+  font-family: 'HomizioNova-regular';
+  src: url('../fonts/HomizioNova.eot?#iefix') format('embedded-opentype'),  url('../fonts/HomizioNova.otf')  format('opentype'),
+	     url('../fonts/HomizioNova.woff') format('woff'), url('../fonts/HomizioNova.ttf')  format('truetype'), url('../fonts/HomizioNova.svg#HomizioNova') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
