@@ -1,2 +1,14 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
+
+.btn-default {
+    font-size: $btn-font-size;
+    border: 0;
+    background-color: $pink-color;
+    color: #fff;
+    line-height: 59px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-family: 'HomizioNova-regular';
+    letter-spacing: $letter-spacing;
+}

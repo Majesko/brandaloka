@@ -5,7 +5,7 @@ html, body {
     background-color: $bg-color;
     font-size: $font-size;
     font-family: 'HomizioNova-regular';
-    letter-spacing: 4px;
+    letter-spacing: $letter-spacing;
     color: $text-color;
 }
 
@@ -29,17 +29,7 @@ html, body {
     font-size: $title-font-size;
 }
 
-.btn-default {
-    font-size: $btn-font-size;
-    border: 0;
-    background-color: $pink-color;
-    color: #fff;
-    line-height: 118px;
-    padding-left: 55px;
-    padding-right: 55px;
-    font-family: 'HomizioNova-regular';
-    letter-spacing: 4px;
-}
+
 
 // Цвета
 
