@@ -1,0 +1,24 @@
+.carousel {
+    width: 400px;
+    // height: 200px;
+    overflow: hidden;
+}
+.carousel__list {
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.carousel__item {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.carousel__image {
+    display: block;
+}
+.carousel__button {
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+}
