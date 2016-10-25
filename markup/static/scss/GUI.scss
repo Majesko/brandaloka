@@ -11,4 +11,12 @@
     padding-right: 27px;
     font-family: 'HomizioNova-regular';
     letter-spacing: $letter-spacing;
+    -webkit-transition: all 2s;
+    transition: background-color .5s, box-shadow .5s;
+    box-shadow: 1px 1px 0 darken($pink-color, 20%), 2px 2px 0 darken($pink-color, 20%), 3px 3px 0 darken($pink-color, 20%);
+
+    &:hover{
+        background-color: darken($pink-color, 20%);
+        box-shadow: 1px 1px 0 darken($pink-color, 40%), 2px 2px 0 darken($pink-color, 40%), 3px 3px 0 darken($pink-color, 40%);
+    }
 }
