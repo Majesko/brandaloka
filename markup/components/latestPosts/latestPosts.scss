@@ -42,19 +42,19 @@
   top: -60px;
   left: 105px;
   z-index: 20;
-  -webkit-animation: unhoverImg 1s ease-in;
-  -moz-animation: unhoverImg 1s ease-in;
-  -o-animation: unhoverImg 1s ease-in;
-  animation: unhoverImg 1s ease-in;
+  -webkit-animation: unhoverImg .5s ease-in;
+  -moz-animation: unhoverImg .5s ease-in;
+  -o-animation: unhoverImg .5s ease-in;
+  animation: unhoverImg .5s ease-in;
   -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
   animation-fill-mode: forwards;
 }
 
 .list-posts__item-link:hover:before{
-  -webkit-animation: hoverImg 1s ease-in;
-  -moz-animation: hoverImg 1s ease-in;
-  -o-animation: hoverImg 1s ease-in;
-  animation: hoverImg 1s ease-in;
+  -webkit-animation: hoverImg .5s ease-in;
+  -moz-animation: hoverImg .5s ease-in;
+  -o-animation: hoverImg .5s ease-in;
+  animation: hoverImg .5s ease-in;
   -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
   animation-fill-mode: forwards;
 }
