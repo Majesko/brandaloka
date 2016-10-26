@@ -1,0 +1,79 @@
+.what-we-do{
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+}
+
+.what-we-do .wrapper{
+  padding: 95px 0 235px;
+}
+
+.what-we-do__title.text-center{
+  margin-bottom: 65px;
+}
+
+.what-we-do__description{
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 110px;
+}
+
+.what-we-do__skills{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.what-we-do__skill-item{
+  float: left;
+  margin:0 55px;
+  color: $pink-color;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.what-we-do__skill-item_value{
+  font-size: 2em;
+}
+
+.what-we-do__skill-item::before{
+  content: '';
+  width: 120px;
+  height: 120px;
+  border: 3px solid $pink-color;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 55px;
+  /* Rotate */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* Rotate Origin */
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  z-index: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.what-we-do__skill-item-content{
+  z-index: 10;
+  position: relative;
+  width: 115px;
+}
+
+.what-we-do__skill-item:hover{
+  color: $white-color;
+}
+
+.what-we-do__skill-item:hover::before{
+  background: $pink-color;
+}

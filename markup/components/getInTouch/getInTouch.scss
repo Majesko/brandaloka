@@ -1,0 +1,75 @@
+.get-in-touch {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.get-in-touch__title {
+  margin-bottom: 65px;
+}
+
+.get-in-touch__description {
+  margin-bottom: 65px;
+}
+
+.get-in-touch__form-content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 45px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.form-part {
+  margin-right: 3%;
+  width: 47%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-field-wrapper {
+  margin-bottom: 20px;
+}
+
+.get-in-touch__form-input-text, .get-in-touch__form-input-textarea {
+  border: none;
+  font-family: 'HomizioNova-regular';
+  letter-spacing: .15em;
+}
+
+.get-in-touch__form-input-textarea {
+  resize: none;
+  align-self: stretch;
+  height: 95%;
+}
+
+.input-text, .textarea-text {
+  background-color: transparent;
+}
+
+.input-text:focus, .textarea-text:focus {
+  outline: none;
+}
+
+.form-field-wrapper {
+  background: #eeeeee;
+  padding: 10px 20px;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  height: 100%;
+  position: relative;
+
+  .input-text, .textarea-text {
+    width: 100%;
+  }
+}
+
+.form-field-wrapper.required:before{
+  content: '*';
+  color: $pink-color;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}

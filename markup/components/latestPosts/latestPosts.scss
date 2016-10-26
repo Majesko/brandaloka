@@ -1,0 +1,121 @@
+.latest-posts {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.latest-posts__title {
+  margin-bottom: 65px;
+}
+
+.list-posts {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
+.list-posts__item {
+  width: 30%;
+  margin-right: 3%;
+  background-color: $bg-color;
+  margin-bottom: 30px;
+}
+
+.list-posts__item-link {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.list-posts__item-link:before {
+  width: 50px;
+  height: 50px;
+  display: block;
+  content: '';
+  background: url(%=static=%assets/latestPosts/last-posts-hover.png);
+  -webkit-background-size: 50px;
+  background-size: 50px;
+  position: absolute;
+  top: -60px;
+  left: 105px;
+  z-index: 20;
+  -webkit-animation: unhoverImg .5s ease-in;
+  -moz-animation: unhoverImg .5s ease-in;
+  -o-animation: unhoverImg .5s ease-in;
+  animation: unhoverImg .5s ease-in;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards;
+}
+
+.list-posts__item-link:hover:before{
+  -webkit-animation: hoverImg .5s ease-in;
+  -moz-animation: hoverImg .5s ease-in;
+  -o-animation: hoverImg .5s ease-in;
+  animation: hoverImg .5s ease-in;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards;
+}
+
+.list-posts__item-thumb {
+  max-width: 100%;
+  position: relative;
+  -webkit-transition: -webkit-filter 1s;
+  transition: filter 1s;
+}
+
+.list-posts__item-thumb:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.list-posts__item-content-wrapper {
+  padding: 15px 15px 25px;
+}
+
+.list-posts__item:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: $pink-color;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.list-posts__item:hover:after {
+  width: 100%;
+}
+
+.list-posts__item-content-title {
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+.list-posts__item-content-text {
+  font-size: .9em;
+  margin-bottom: 30px;
+}
+
+.list-posts__item-meta-info {
+  font-size: .8em;
+  text-transform: lowercase;
+}
+
+.list-posts__item-meta-time {
+  margin-right: 35px;
+}
+
+@keyframes hoverImg {
+  0%{top: -60px; }
+  80%{top: 90px; }
+  100%{ top: 60px; }
+}
+
+@keyframes unhoverImg {
+  0%{top: 60px; }
+  80%{top: 10px; }
+  100%{top: -60px; }
+}

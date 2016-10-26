@@ -1,0 +1,40 @@
+.services{
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: $bg-color;
+}
+
+.services__title{
+  margin-bottom: 65px;
+}
+
+.services__description{
+  margin-bottom: 65px;
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+.services__list-service{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services__list-item{
+  width: 25%;
+  padding-left: 70px;
+  position: relative;
+}
+
+.service-header{
+  display: block;
+  clear: both;
+}
+
+.service-header{
+  font-size: 1.625em;
+  margin-bottom: 20px;
+}
