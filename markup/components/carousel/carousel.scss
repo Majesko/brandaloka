@@ -1,6 +1,9 @@
 .carousel {
-    width: 400px;
+    width: 450px;
     // height: 200px;
+    position: relative;
+}
+.carousel__inner {
     overflow: hidden;
 }
 .carousel__list {
@@ -8,6 +11,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    transition: margin-left 250ms;
 }
 .carousel__item {
     float: left;
@@ -19,6 +23,59 @@
 }
 .carousel__button {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 25px;
     position: absolute;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: $pink-color;
+    text-align: center;
+    font-family: 'HomizioNova-regular';
+    /* Поворот */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.carousel__button span {
+    display: block;
+    /* Поворот */
+    -webkit-transform: rotate(+45deg);
+    -moz-transform: rotate(+45deg);
+    -ms-transform: rotate(+45deg);
+    -o-transform: rotate(+45deg);
+    transform: rotate(+45deg);
+}
+.carousel__left {
+    top: 35%;
+    left: 30px;
+}
+.carousel__right {
+    top: 35%;
+    right: 30px;
+}
+.carousel__dotbox {
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.carousel__dot {
+    height: 10px;
+    width: 10px;
+    background-color: $pink-color;
+    display: inline-block;
+    // float: left;
+    overflow: visible;
+    margin-right: 10px;
+    /* Поворот */
+    -webkit-transform: rotate(+45deg);
+    -moz-transform: rotate(+45deg);
+    -ms-transform: rotate(+45deg);
+    -o-transform: rotate(+45deg);
+    transform: rotate(+45deg);
+}
+.carousel__dot:hover {
+    background-color: $text-color;
+    cursor: pointer;
 }
