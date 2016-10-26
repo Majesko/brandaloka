@@ -1,0 +1,36 @@
+.subscribe{
+  background: url(%=static=%assets/subscribe/subscribe-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: $white-color;
+}
+
+.subscribe__title{
+  margin-bottom: 65px;
+}
+
+.subscribe__description{
+  margin-bottom: 65px;
+}
+
+.form-field-wrapper{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  max-width: 760px;
+  margin: 0 auto 65px;
+  box-shadow: 0 0 20px #444;
+}
+
+.subscribe-input-email{
+  border: none;
+  background-color: transparent;
+  color: $white-color;
+  text-align: left;
+  width: 100%;
+  font-family: 'HomizioNova-regular';
+  letter-spacing: .15em;
+}
+
+input.input-text:focus{
+  outline: none;
+}
