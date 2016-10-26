@@ -8,14 +8,25 @@
 .about-us__subtitle {
     margin-bottom: 70px;
     letter-spacing: .12em;
+    line-height: 1.8;
 }
 .about-us__content {
-    width: 50%;
+    width: 45%;
+    float: left;
+    margin-right: 5%;
 }
 .about-us__carousel {
     width: 50%;
+    float: right;
 }
 .about-us__content-item {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     letter-spacing: .12em;
+    line-height: 1.8;
+    margin-top: 0;
+}
+.section-wrapper::after {
+    clear: both;
+    display: block;
+    content: "";
 }
