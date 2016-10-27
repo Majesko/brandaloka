@@ -1,0 +1,27 @@
+.companies {
+    margin-top: -60px;
+}
+.companies__image {
+    width: 187.5px;
+}
+.companies-wrapper {
+    width: $container-width + 200px;
+}
+.companies__image {
+    margin: 0 20px;
+}
+.companies-slider {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    padding-top: 60px;
+    width: 910px;
+}
+.companies .carousel__right {
+    top: 45px;
+    right: -15px;
+}
+.companies .carousel__left {
+    top: 45px;
+    left: -15px;
+}

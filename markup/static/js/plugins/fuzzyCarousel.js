@@ -9,7 +9,7 @@ window.fuzzyCarousel = function(selector, options) {
     var list = carousel.querySelector('.carousel__list');
     var listElems = carousel.querySelectorAll('.carousel__item');
     var itemPosition = position;
-    carousel.style.width = options.width+'px';
+    // carousel.style.width = options.width+'px';
     
     var controlBox = document.createElement('div');
     controlBox.className = 'carousel__controls';
