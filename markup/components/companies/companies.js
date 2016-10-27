@@ -1,2 +1,2 @@
-fuzzyCarousel('carousel2', {width: 910, count: 1, dots: false}); // eslint-disable-line
+fuzzyCarousel('carousel2', {width: 227.5, count: 4, dots: false}); // eslint-disable-line
 
