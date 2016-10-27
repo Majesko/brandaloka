@@ -2,6 +2,11 @@
     padding-top: 95px;
     padding-bottom: 135px;
 }
+.our-skills::after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
 .our-skills__title {
     margin-bottom: 100px;
 }

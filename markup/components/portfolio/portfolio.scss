@@ -1,0 +1,20 @@
+.portfolio {
+    padding-top: 95px;
+    padding-bottom: 135px;
+}
+.portfolio__image {
+    float: left;
+    // width: 0%;
+    display: block;
+}
+.portfolio::after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+.grid-sizer {
+    width: 10%;
+}
+.portfolio__image {
+    height: 210px;
+}
