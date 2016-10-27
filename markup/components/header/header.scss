@@ -51,6 +51,7 @@
 .navbar-list__item{
   display: inline-block;
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .navbar-list__item-link{
@@ -63,6 +64,8 @@
   height: 30px;
   margin: 0 auto 10px;
   background-size: 30px 30px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .navbar-list__item-link-text{
@@ -70,4 +73,43 @@
   display: block;
   width: 100%;
   text-align: center;
+}
+
+.navbar-list__item:hover .icon-header{
+  width: 35px;
+  height: 35px;
+  margin: 0 auto 15px;
+  background-size: 35px 35px;
+  font-size: 1.1em;
+}
+
+.soc-menu{
+  float: left;
+  line-height: 4em;
+}
+
+.soc-menu-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.soc-menu-list__item{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+}
+
+.soc-menu-list__item-link{
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+.icon-header-socmenu{
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-size: 15px 15px;
 }
