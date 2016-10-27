@@ -1,0 +1,49 @@
+.our-skills {
+    padding-top: 95px;
+    padding-bottom: 135px;
+}
+.our-skills__title {
+    margin-bottom: 100px;
+}
+.our-skills__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.our-skills__item {
+    float: left;
+    display: block;
+    margin: 0 20px;
+}
+.our-skills__item:first-child {
+    margin-left: 0;
+}
+.our-skills__item:last-child {
+    margin-right: 0;
+}
+.our-skills__round-slider .rs-range-color  {
+    background-color: $pink-color;
+}
+.our-skills__round-slider .rs-path-color  {
+    background-color: $even-color;
+}
+.our-skills__round-slider .rs-handle  {
+    background-color: $even-color;
+    padding: 7px;
+    border: 2px solid $even-color;
+    display: none;
+}
+.our-skills__round-slider .rs-handle.rs-focus  {
+    border-color: $even-color;
+}
+.our-skills__round-slider .rs-handle:after  {
+    border-color: $even-color;
+    background-color: $even-color;
+}
+.our-skills__round-slider .rs-border  {
+    border-color: transparent;
+}
+.our-skills__round-slider .rs-tooltip-text {
+    font-size: 2em;
+    font-family: 'HomizioNova-regular';
+}
