@@ -51,4 +51,8 @@
 .our-skills__round-slider .rs-tooltip-text {
     font-size: 2em;
     font-family: 'HomizioNova-regular';
+    padding-left: 18px;
+}
+.our-skills__round-slider .rs-tooltip-text::after {
+    content: '%';
 }

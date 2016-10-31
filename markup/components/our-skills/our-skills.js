@@ -10,7 +10,7 @@ $('#skill1').roundSlider({
     tooltipFormat: 'skillVal1'
 });
 function skillVal1(args) {
-    return args.value + '%';
+    return args.value;
 }
 $('#skill2').roundSlider({
     radius: 75,
@@ -24,7 +24,7 @@ $('#skill2').roundSlider({
     tooltipFormat: 'skillVal2'
 });
 function skillVal2(args) {
-    return args.value + '%';
+    return args.value;
 }
 $('#skill3').roundSlider({
     radius: 75,
@@ -38,7 +38,7 @@ $('#skill3').roundSlider({
     tooltipFormat: 'skillVal3'
 });
 function skillVal3(args) {
-    return args.value + '%';
+    return args.value;
 }
 $('#skill4').roundSlider({
     radius: 75,
@@ -52,7 +52,7 @@ $('#skill4').roundSlider({
     tooltipFormat: 'skillVal4'
 });
 function skillVal4(args) {
-    return args.value + '%';
+    return args.value;
 }
 $('#skill5').roundSlider({
     radius: 75,
@@ -66,5 +66,6 @@ $('#skill5').roundSlider({
     tooltipFormat: 'skillVal5'
 });
 function skillVal5(args) {
-    return args.value + '%';
+    return args.value;
 }
+$('.rs-tooltip-text').counterUp();
