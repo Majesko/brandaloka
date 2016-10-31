@@ -22,6 +22,7 @@
             {{> portfolio/portfolio }}
             {{> offers/offers }}
             {{> subscribe/subscribe }}
+            {{> map/map }}
             {{> getInTouch/getInTouch }}
             <div class="page__buffer"></div>
             
@@ -29,12 +30,15 @@
         <footer class="page__footer">
             {{> footer/footer}}
         </footer>
-
+        
         <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
         <script>svg4everybody();</script>
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
         <script src="%=static=%js/main%=hash=%%=min=%.js"></script>
+        <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClaMEw08ZRPNs5_rKwrZAOytnagOtVSnw&callback=initMap">
+    </script>
     </body>
 
 </html>
